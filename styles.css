@@ -1,0 +1,14 @@
+body {
+    box-sizing: border-box;
+    background-color: #FA9C1D;
+}
+
+img {
+    width: 30%;
+    height: auto;
+}
+
+.grayText {
+    Color: #4A4C4E;
+    font-weight: bolder;
+}

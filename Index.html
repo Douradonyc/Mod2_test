@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+    <head>
+        <title>Final Submission</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="Javascript.js"></script>
+    </head>
+    <body>
+        <form action="#">
+            <img src="https://logos-world.net/wp-content/uploads/2020/05/Overwatch-Logo.png" alt="Overwatchlogo"> <br>
+            <span class="grayText">First Name</span><br> <!--Basic information from the player-->
+            <input type="text" placeholder="First Name"> <br>
+            <span class="grayText">Email</span><br> 
+            <input type="text" placeholder="Email" id="email1"> <br>
+            <input type="text" placeholder="confirmEmail" id="email2" onblur="validateEmail()";> <span id="emailConfirm"></span> <br>
+            <span class="grayText">Username</span><br> 
+            <input type="text" placeholder="Overwatch Username" required id="userName" onblur="validateName();"> <span id="userConfirm"></span> <br>
+            <span class="grayText">Date of Birth:</span><br> 
+            <input type="date"> <br>
+
+            <!--In game information on player-->
+            <span class="grayText">Favorite Role:</span><br> 
+            <input type="checkbox" name="role" value="Tank"> <span class="grayText">Tank</span> <br>
+            <input type="checkbox" name="role" value="Support"> <span class="grayText">Support</span> <br>
+            <input type="checkbox" name="role" value="DPS"> <span class="grayText">DPS</span> <br>
+
+            <span class="grayText">Hours Played Per Week:</span><br> 
+            <input type="number" min="0" max="10000000"> <br>
+
+            <span class="grayText">Country</span> <br> 
+            <input type="text"> <br>
+
+            <span class="grayText">Sign up for our News letters:</span><br> 
+            <input type="radio" name="Newsletter" value="Yes"> <span class="grayText">Sign me up!</span>
+            <input type="radio" name="Newsletter" value="No"> <span class="grayText">No Thank You!</span> <br>
+
+            <button>Submit</button>
+
+        </table>
+        </form>
+    </body>
+</html>
